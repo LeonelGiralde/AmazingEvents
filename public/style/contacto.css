@@ -1,0 +1,40 @@
+.datos {
+    display: flex;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column ;
+    margin-top: 100px;
+    
+}
+
+.contact{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.contact p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact input{
+    border-radius: 5px;
+    width: 180px;
+}
+
+
+

@@ -1,0 +1,335 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    background-color: rgba(2, 2, 71, 0.988);
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo img {
+    margin: 40px;
+    width: 50%;
+}
+
+.caja {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja ul {
+    display: flex;
+    padding: 0;
+}
+
+.caja nav li {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.caja li a {
+    width: fit-content;
+    margin-right: 25px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white
+}
+
+nav a:hover {
+    color: #c7196a;
+    text-decoration: underline;
+}
+
+.sinResultado{
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+@media (max-width:1160px) {
+    header {
+        flex-direction: column;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .logo img {
+        margin: 5px;
+        width: 80%;
+    }
+
+    .caja li a {
+        width: 100%;
+        font-size: 20px;
+    }
+
+
+}
+
+@media (max-width:600px) {
+    .caja li a {
+        font-size: 18px;
+
+    }
+
+    .logo img {
+        margin: 5px;
+        width: 80%;
+    }
+}
+
+@media (max-width:540px) {
+    .caja li a {
+        font-size: 16px;
+
+    }
+
+    .logo img {
+        margin: 5px;
+        width: 80%;
+    }
+}
+
+@media (max-width:500px) {
+    .caja li a {
+        font-size: 14px;
+
+    }
+
+    .logo img {
+        margin: 5px;
+        width: 80%;
+    }
+}
+
+@media (max-width:450px) {
+    .caja li a {
+        font-size: 12px;
+
+    }
+
+    .logo img {
+        margin: 5px;
+        width: 80%;
+    }
+}
+
+@media (max-width:410px) {
+    .caja li a {
+        font-size: 12px;
+
+    }
+
+    .logo img {
+        margin: 2px;
+        width: 80%;
+    }
+}
+
+@media (max-width:355px) {
+    .caja li a {
+        font-size: 9px;
+
+    }
+
+    .logo img {
+        margin: 2px;
+        width: 80%;
+    }
+}
+
+@media (max-width:335px) {
+    .caja li a {
+        font-size: 8.5px;
+
+    }
+
+    .logo img {
+        margin: 2px;
+        width: 80%;
+    }
+}
+
+@media (max-width:320px) {
+    .caja li a {
+        font-size: 8px;
+
+    }
+
+    .logo img {
+        margin: 2px;
+        width: 80%;
+    }
+}
+
+@media (max-width:310px) {
+    .caja li a {
+        font-size: 7px;
+
+    }
+
+    .logo img {
+        margin: 2px;
+        width: 80%;
+    }
+}
+
+/******Hasta aca el header ******/
+/******Desde aca el main*********/
+
+main {
+    width: 100%;
+
+}
+
+.titulo {
+    width: 100%;
+    background-color: #efe9ec;
+    display: flex;
+    box-sizing: border-box;
+    border-color: rgba(2, 2, 71, 0.988);
+    border-width: 2px;
+    border-style: solid;
+    align-items: center;
+}
+
+.titulo:hover {
+    border-color: #c7196a;
+
+}
+
+.centro {
+    color: black;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.flecha-izq {
+    color: black;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.flecha-izq a {
+    text-decoration: none;
+    color: black;
+}
+
+.flecha-izq i {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.flecha-izq i:hover {
+    color: #c7196a;
+}
+
+.flecha-der {
+    color: black;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.flecha-der a {
+    text-decoration: none;
+    color: black;
+}
+
+.flecha-der i {
+    display: flex;
+    align-items: center;
+}
+
+.flecha-der i:hover {
+    color: #c7196a;
+}
+
+/*****Hasta aca el main*****/
+/***** Desde aca el footer****/
+
+footer {
+    display: flex;
+    background-color: rgba(2, 2, 71, 0.988);
+    margin-top: auto;
+}
+
+.redes {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.redes ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.redes ul a {
+    padding: 5px;
+    color: white;
+}
+
+.redes ul a:hover {
+    color: #c7196a;
+    text-decoration: underline;
+}
+
+.coppy {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.acnur {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+.check-buscador{
+    width: 100%;
+    display: flex;
+}
+
+.check-box{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+
+}
+
+
+.check-box a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.check-box li{
+    list-style: none;
+}
+
+.check-box a i{
+    color: black;
+}
+
+.buscador{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.buscador input{
+    border-radius: 5px;
+    width: 40%;
+}
